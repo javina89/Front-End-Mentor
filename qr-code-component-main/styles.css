@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d5e1ef;
+}
+.card{
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
+.container > p:first-of-type{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    width:fit-content;
+}
+.container > p{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+.attribution { 
+    padding-top: 10px;
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
